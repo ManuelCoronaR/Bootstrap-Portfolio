@@ -1,26 +1,88 @@
 * {
     box-sizing: border-box;
 } 
+/* index start here */
 body {
-    background-image: url(./assets/img/light-grey-terrazzo.png)
+background-image: url(./assets/img/light-grey-terrazzo.png);
+margin: 0 auto;
+color: #777777;
+}
+nav {
+    border-bottom: 2px solid #eeeeee;
+}
+.navbar 
+.navbar-expand-lg, 
+.navbar-light, 
+.bg-light {
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+ul {
+    margin-right: 10%;
 }
 li {
-    list-style: none;
-    color: rgb(192, 189, 189);
-   }
-   .container {
-       background-color: white;
-       width: 80%;
+    border-left: 1px solid lightgray;
+    height: 30px;
+}
+.align-r {
+    margin-left: 6%;
+    background-color: #4aaaa5;
+}
+#myName {
+    color: white;
+    margin-left: 15px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+margin-top: 40px;
+background-color: white;
+width: 1100px;
+height: 600;
+border: 1px solid #eeeeee;
+padding-right: 5%;
+}
 
-   }
-   #about {
-       margin-top: 25px;
-
-   }
-   .nav-link {
-    float: right;
-   }
-   .img-fluid {
-       width: 150px;
-       height: 200px;
-   }
+#about {
+margin-top: 25px;
+margin-left: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #4aaaa5;
+border-bottom: 2px solid #dddddd;
+margin-bottom: 25px;
+width: 100%;
+padding-bottom: 20px;
+}
+.text-justify {
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link {
+float: right;
+padding: 0%;
+}
+.card {
+    border-style: none;
+}
+.card-img {
+    float: left;
+    margin-left: 20px;
+    width: 200px;
+    height: 250px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    width: 85%;
+    line-height: 35px;
+}
+.card-footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    border-top: 6px solid #4aaaa5;
+    margin-top: 10%;
+    background-color: #777777;
+    color: #eeeeee;
+}
