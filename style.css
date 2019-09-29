@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+} 
+body {
+    background-image: url(./assets/img/light-grey-terrazzo.png)
+}
+li {
+    list-style: none;
+    color: rgb(192, 189, 189);
+   }
+   .container {
+       background-color: white;
+       width: 80%;
+
+   }
+   #about {
+       margin-top: 25px;
+
+   }
+   .nav-link {
+    float: right;
+   }
+   .img-fluid {
+       width: 150px;
+       height: 200px;
+   }
