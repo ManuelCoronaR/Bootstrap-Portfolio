@@ -1,0 +1,179 @@
+/* index start here */
+body {
+    background-image: url(../img/concrete_seamless.png);
+    margin: 0 auto;
+    color: #777777;
+}
+* {
+    box-sizing: border-box;
+} 
+nav {
+    border-bottom: 3px solid #eeeeee;
+}
+.navbar 
+.navbar-expand-lg, 
+.navbar-light, 
+.bg-light {
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 10px;
+    border-bottom: 2px solid #cccccc;
+}
+ul {
+    margin-right: 25%;
+}
+.nav-item {
+    border-left: 1px solid lightgray;
+    height: 30px;
+}
+.align-r {
+    margin-left: 16.5%;
+    background-color: #4aaaa5;
+}
+#myName {
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    margin-top: 40px;
+    background-color: white;
+    width: 1100px;
+    height: 1000;
+    border: 1px solid #eeeeee;
+    padding-right: 5%;
+    border: 1px solid #cccccc;
+}
+
+#about {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 25px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.text-justify {
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link {
+    float: right;
+    padding: 0%;
+}
+.card {
+    border-style: none;
+}
+.card-img {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 250px;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    width: 100%;
+    line-height: 35px;
+}
+.card-footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    border-top: 6px solid #4aaaa5;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    background-color: #777777;
+    color: #eeeeee;
+}
+
+/* Porfolio starts here */
+.rounded-0 {
+    width: 300px;
+    height: 300px;
+}
+.id {
+    background-color: #4aaaa5;
+    color: #FFFF;
+    text-align: center;
+    width: 64%;
+    padding: 10px;
+}
+/* Contact form starts here */
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+}
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+}
+
+.btn, 
+.btn-primary{
+    background-color: #4aaaa5;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max)
+
+
+
+
+
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+.custom-class {
+    display: none;
+}
+@include media-breakpoint-up(sm) {
+.custom-class {
+    display: block;
+}
+}
